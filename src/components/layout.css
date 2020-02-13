@@ -17,3 +17,6 @@ body {
   color: #f8f6f4;
   padding: 10px;
 }
+.carousel-item{
+  max-height: 500px;
+}
