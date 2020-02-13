@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Slider from "../components/carousel"
 import IconCards from "../components/about"
+import Services from "../components/services"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -11,6 +12,7 @@ const IndexPage = () => (
 
     <Slider />
     <IconCards />
+    <Services/>
   </Layout>
 )
 

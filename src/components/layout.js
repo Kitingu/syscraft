@@ -1,4 +1,3 @@
-
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
@@ -22,15 +21,14 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <Address/>
+      <Address />
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="main">
         <main>{children}</main>
-        {/* <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer> */}
+        <footer>
+          ©<a href="https://syscraft.co.ke">Syscraft Limited</a>{" "}
+          {new Date().getFullYear()}
+        </footer>
       </div>
     </>
   )

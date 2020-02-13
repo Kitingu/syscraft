@@ -24,3 +24,17 @@ body {
   text-align: center;
   color: #0056b3;
 }
+.card{
+  margin: auto;
+  border: none;
+}
+footer{
+  text-align: center;
+  color: #f8f6f4;
+  background-color: #0056b3;
+  padding: 20px;
+}
+footer a{
+  color: #f8f6f4;
+  text-transform: uppercase;
+}

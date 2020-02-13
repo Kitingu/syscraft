@@ -1,6 +1,4 @@
 import React from "react"
-import AccountBalanceIcon from "@material-ui/icons/AccountBalance"
-import GitHubIcon from "@material-ui/icons/GitHub"
 import { Card, CardGroup } from "react-bootstrap"
 
 const IconCards = () => {
