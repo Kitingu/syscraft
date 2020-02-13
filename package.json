@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Benedict Mwendwa <bmwendwa@syscraft.co.ke>",
   "dependencies": {
+    "@material-ui/core": "^4.9.2",
+    "@material-ui/icons": "^4.9.1",
     "bootstrap": "^4.4.1",
     "formik": "^2.1.4",
     "gatsby": "^2.19.7",

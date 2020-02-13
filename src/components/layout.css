@@ -20,3 +20,7 @@ body {
 .carousel-item{
   max-height: 500px;
 }
+.card-header, .card-title{
+  text-align: center;
+  color: #0056b3;
+}
