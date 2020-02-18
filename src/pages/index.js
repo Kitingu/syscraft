@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import Slider from "../components/carousel"
 import IconCards from "../components/about"
 import Services from "../components/services"
+import Product from "../components/product"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -12,7 +13,8 @@ const IndexPage = () => (
 
     <Slider />
     <IconCards />
-    <Services/>
+    <Services />
+    <Product title="SySCraft - Infinite Possibilities" image="/software.jpg" />
   </Layout>
 )
 

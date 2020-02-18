@@ -1,5 +1,6 @@
 import React from "react"
-import { Card, CardGroup } from "react-bootstrap"
+import { Card, Container,CardGroup,Col } from "react-bootstrap"
+
 
 const IconCards = () => {
   const cards = [
@@ -23,17 +24,20 @@ const IconCards = () => {
     },
   ]
   return (
-    <CardGroup>
-      {cards.map(card => (
-        <Card style={{ width: "18rem" }}>
-        
-          <Card.Body>
-            <Card.Title>{card.title}</Card.Title>
-            <Card.Text>{card.details}</Card.Text>
-          </Card.Body>
-        </Card>
-      ))}
-    </CardGroup>
+    <Container>
+      <CardGroup>
+        {cards.map(card => (
+         
+            <Card style={{ width: "18rem" }} >
+              <Card.Body>
+                <Card.Title>{card.title}</Card.Title>
+                <Card.Text>{card.details}</Card.Text>
+              </Card.Body>
+            </Card>
+         
+        ))}
+      </CardGroup>
+    </Container>
   )
 }
 

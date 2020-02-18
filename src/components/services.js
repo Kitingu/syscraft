@@ -1,5 +1,6 @@
 import React from "react"
-import { Card, CardDeck } from "react-bootstrap"
+import { Card,Container, CardDeck } from "react-bootstrap"
+
 
 
 const Services = () => {
@@ -24,20 +25,19 @@ const Services = () => {
     },
   ]
   return (
-    <CardDeck className="mt-4 m-auto">
-      {services.map(service => (
-        <Card style={{ width: "18rem" }}>
-          <Card.Img
-            src={service.image}
-            variant="top"
-          />
-          <Card.Body>
-            <Card.Title>{service.title}</Card.Title>
-            <Card.Text>{service.details}</Card.Text>
-          </Card.Body>
-        </Card>
-      ))}
-    </CardDeck>
+    <Container>
+      <CardDeck className="mt-4 m-auto">
+        {services.map(service => (
+          <Card style={{ width: "18rem" }}>
+            <Card.Img src={service.image} variant="top" />
+            <Card.Body>
+              <Card.Title>{service.title}</Card.Title>
+              <Card.Text>{service.details}</Card.Text>
+            </Card.Body>
+          </Card>
+        ))}
+      </CardDeck>
+    </Container>
   )
 }
 

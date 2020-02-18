@@ -16,6 +16,7 @@ body {
   width: 100%;
   color: #f8f6f4;
   padding: 10px;
+  align-items: center;
 }
 .carousel-item{
   max-height: 500px;

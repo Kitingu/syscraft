@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="main">
         <main>{children}</main>
-        <footer>
+        <footer className="mt-2">
           ©<a href="https://syscraft.co.ke">Syscraft Limited</a>{" "}
           {new Date().getFullYear()}
         </footer>
