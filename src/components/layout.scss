@@ -6,15 +6,20 @@ Copper	#b9853a	Warning
 Pomegranate	#f44336	Danger
 white #f8f6f4; 
 */
-
+$primary: #1659c2;
+$info: #1c1f34;
+$success: #3c9572;
+$warning: #b9853a;
+$danger: #f44336;
+$white:#f8f6f4;
 body {
   margin: 0;
 }
 
 .Address {
-  background-color: #0056b3;
+  background-color: $primary;
   width: 100%;
-  color: #f8f6f4;
+  color: $white;
   padding: 10px;
   align-items: center;
 }
@@ -23,7 +28,7 @@ body {
 }
 .card-header, .card-title{
   text-align: center;
-  color: #0056b3;
+  color: $primary;
 }
 .card{
   margin: auto;
@@ -31,11 +36,11 @@ body {
 }
 footer{
   text-align: center;
-  color: #f8f6f4;
-  background-color: #0056b3;
+  color: $white;
+  background-color: $primary;
   padding: 20px;
 }
 footer a{
-  color: #f8f6f4;
+  color: $white;
   text-transform: uppercase;
 }

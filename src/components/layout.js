@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 
 import "bootstrap/dist/css/bootstrap.min.css"
-import "./layout.css"
+import "./layout.scss"
 import Address from "./address"
 
 const Layout = ({ children }) => {
@@ -27,7 +27,9 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer className="mt-2">
           ©<a href="https://syscraft.co.ke">Syscraft Limited</a>{" "}
-          {new Date().getFullYear()}
+          {new Date().getFullYear()} 
+          
+            
         </footer>
       </div>
     </>
