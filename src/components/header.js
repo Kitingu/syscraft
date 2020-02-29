@@ -1,4 +1,4 @@
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 import {
   Navbar,
   Nav,
@@ -11,7 +11,6 @@ import Enquiry from "./enquiry"
 import PropTypes from "prop-types"
 import React from "react"
 
-
 const Header = ({ siteTitle }) => {
   const [modalShow, setModalShow] = React.useState(false)
   return (
@@ -21,7 +20,10 @@ const Header = ({ siteTitle }) => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#features">About </Nav.Link>
+            <Nav.Link>
+              {" "}
+              <Link to="/about"> About </Link>
+            </Nav.Link>
             <Nav.Link href="#pricing">Hardware</Nav.Link>
             <Nav.Link href="#pricing">Patners</Nav.Link>
             <Nav.Link href="#pricing">Services</Nav.Link>
